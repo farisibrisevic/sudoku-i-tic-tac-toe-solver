@@ -11,7 +11,7 @@ Projekat je pisan u C++ programskom jeziku. IDE koji je korišten je MS Visual S
 <i>Asistenti: </i> Narcisa Hadžajlić</p>
 <hr>
 
-12.04.2023. - Dodana kruto napravljena igrica "tic-tac-toe" tako da korisnik, ili korisnici, unose svoje simbole u određena polja. Polja su prikazana brojevima od 1 do 9.
+<b>12.04.2023. </b> - Dodana kruto napravljena igrica "tic-tac-toe" tako da korisnik, ili korisnici, unose svoje simbole u određena polja. Polja su prikazana brojevima od 1 do 9.
 <br>
 
 "Tabla" izgleda ovako: 
