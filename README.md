@@ -22,7 +22,7 @@ Projekat je pisan u C++ programskom jeziku. IDE koji je korišten je MS Visual S
 
 7 8 9
 
-Program traži od korisnika unosom broja da odredi polje. Ako je korisnik unio 5, u sljedećem prikazu tabla ne izlgeda kao iznad nego ovako: 
+Program traži od korisnika unosom broja da odredi polje. Ako je korisnik unio 5, u sljedećem prikazu tabla ne izgleda kao iznad nego ovako: 
 
 1 2 3
 
