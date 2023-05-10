@@ -32,6 +32,8 @@ Program traži od korisnika unosom broja da odredi polje. Ako je korisnik unio 5
 
 Program se izvršava sve dok se ne desi jedan od tri moguća ishoda: X pobjednik, O pobjednik ili neriješeno. 
 
+10.05.2023. - Promijenjeno ime fajla, radi lakše organizacije. Kod, način na koji radi, te sistem je ostao isti. Nikakve promjene nisu vršene u kodu, osim promjene imena.
+
 <br>
 <hr>
 Nakon skoro mjesec dana (10.05.2023.) dodan je sudoku. Ovaj fajl se zasniva na sličnom principu kao prethodno opisani fajl, samo što je ovaj put sudoku u pitanju. Korisnik unosi red, kolonu i vrijednost, prateći pravila igre. Ako unese broj koji je već unutar te tabele, "igra" će od njega zatražiti da unese ponovo, ne govoreći gdje je greška. To će raditi, sve dok korisnik ne unese pravilan broj. Kada se ispuni čitava ploča, korisnik dobija jednu od dvije poruke, uspješno ili neuspješno riješeno. Ploča se ispunjava nasumičnim brojevima, a ona prazna predstavljena su nulom. 
