@@ -31,3 +31,13 @@ Program traži od korisnika unosom broja da odredi polje. Ako je korisnik unio 5
 7 8 9
 
 Program se izvršava sve dok se ne desi jedan od tri moguća ishoda: X pobjednik, O pobjednik ili neriješeno. 
+
+<br>
+<hr>
+Nakon skoro mjesec dana (10.05.2023.) dodan je sudoku. Ovaj fajl se zasniva na sličnom principu kao prethodno opisani fajl, samo što je ovaj put sudoku u pitanju. Korisnik unosi red, kolonu i vrijednost, prateći pravila igre. Ako unese broj koji je već unutar te tabele, "igra" će od njega zatražiti da unese ponovo, ne govoreći gdje je greška. To će raditi, sve dok korisnik ne unese pravilan broj. Kada se ispuni čitava ploča, korisnik dobija jednu od dvije poruke, uspješno ili neuspješno riješeno. Ploča se ispunjava nasumičnim brojevima, a ona prazna predstavljena su nulom. 
+Izgled tabele:
+
+![image](https://github.com/farisibrisevic/sudoku-i-tic-tac-toe-solver/assets/115661874/8534a407-5a25-45c0-a8c5-d9360e1806e2)
+
+
+Brojevi iznad označavaju broj kolone, a brojevi s lijeve strane označavaju broj reda. 
