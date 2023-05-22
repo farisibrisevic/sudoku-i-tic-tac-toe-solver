@@ -43,3 +43,8 @@ Izgled tabele:
 
 
 Brojevi iznad označavaju broj kolone, a brojevi s lijeve strane označavaju broj reda. 
+
+<br>
+<hr>
+
+22.05.2023. - Dodan je tic-tac-toe solver. Naime, solver nije solver, nego klasični player vs računar sistem. Kada igrač napravi potez, računar napravi potez, sukladno potezu igrača. Radi manjka i neznanja pravljenja funkcionalnih interfejsa, lahko je pogriješiti. 
