@@ -48,3 +48,6 @@ Brojevi iznad označavaju broj kolone, a brojevi s lijeve strane označavaju bro
 <hr>
 
 22.05.2023. - Dodan je tic-tac-toe solver. Naime, solver nije solver, nego klasični player vs računar sistem. Kada igrač napravi potez, računar napravi potez, sukladno potezu igrača. Radi manjka i neznanja pravljenja funkcionalnih interfejsa, lahko je pogriješiti. 
+
+<br>
+04.06.2023. - Dodan je fajl sudoku-solver. Ovaj fajl je generator i rješavač Sudokua. Kada korisnik pokrene ovaj fajl, generiše se slučajno generisana Sudoku tabla sa rješenjem. Zbog nedostatka znanja iz programairanja u C++, trenutna verzija ovog fajla ne omogućava korisniku izbor tabela ili težine igre, već samo generiše jednu random tablu
