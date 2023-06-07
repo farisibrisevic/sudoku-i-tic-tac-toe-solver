@@ -2,6 +2,8 @@
 #include <vector>
 #include <cstdlib>
 #include <ctime>
+#include <algorithm>
+
 
 using namespace std;
 
@@ -121,21 +123,33 @@ bool solveSudoku(vector<vector<int>>& board, int row, int col) {
 
 void generisiPlocu(vector<vector<int>>& board) {
     srand(time(NULL));
-    int numCells = rand() % 10 + 50;
-    for (int i = 0; i < numCells; ++i) {
+    solveSudoku(board, 0, 0); // Solve the Sudoku puzzle first
+
+    // Shuffle the values
+    vector<int> values = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+    random_shuffle(values.begin(), values.end());
+
+    // Remove some values to create a partially filled board
+    int numCells = rand() % 20 + 20;
+    while (numCells > 0) {
         int row = rand() % 9;
         int col = rand() % 9;
-        int val = rand() % 9 + 1;
         if (board[row][col] != 0) {
-
-            continue;
-        }
-        board[row][col] = val;
-        if (!isValid(board, row, col)) {
             board[row][col] = 0;
+            numCells--;
+        }
+    }
+
+    // Assign shuffled values to the board
+    for (int i = 0; i < 9; i++) {
+        for (int j = 0; j < 9; j++) {
+            if (board[i][j] != 0) {
+                board[i][j] = values[board[i][j] - 1];
+            }
         }
     }
 }
+
 
 bool isBoardFull(vector<vector<int>>& board) {
     for (int i = 0; i < VELICINA; ++i) {

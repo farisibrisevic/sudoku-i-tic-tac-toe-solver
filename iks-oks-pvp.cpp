@@ -163,13 +163,5 @@ int main() {
 
     cout << "Game over!" << endl;
 
-    if (n == 10) {
-        cout << "It's a tie!";
-    }
-    else {
-        switch_player();
-        cout << "Player " << player << " wins!";
-    }
-
     return 0;
 }
