@@ -120,7 +120,7 @@ bool solveSudoku(vector<vector<int>>& board, int row, int col) {
 
 void generisiPlocu(vector<vector<int>>& board) {
     srand(time(NULL));
-    int numCells = rand() % 10 + 50;
+    int numCells = rand() % 10 + 20;
     for (int i = 0; i < numCells; ++i) {
         int row = rand() % 9;
         int col = rand() % 9;
